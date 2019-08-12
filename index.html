@@ -11,15 +11,16 @@
     <header>
       <p>Choose a theme:</p>
 
-      <button>Facebook</button> <button>DevMountain</button>
-      <button>Twitter</button> <button>Default</button>
+      <button onclick="selectTheme('facebook')">Facebook</button> <button onclick="selectTheme('devmountain')">DevMountain</button>
+      <button onclick="selectTheme('twitter')">Twitter</button> <button onclick="selectTheme('default')">Default</button>
     </header>
     <main>
-      <h1>0</h1>
+      <h1 id="counter">0</h1>
       <h2>Clicks</h2>
       <section>
-        <button>-</button> <button>Reset</button> <button>+</button>
+        <button onclick="decrease()">-</button> <button onclick="reset()">Reset</button> <button onclick="increase()">+</button>
       </section>
     </main>
+    <script src="./index.js">0</script>
   </body>
 </html>
